@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    background: rgb(234, 235, 239);
+}
+
+/***first background*****/
+.firstbackground {
+    background: linear-gradient(to right, #f45c06 30%, #f3a800 100%);
+    height: 410px;
+    width: auto;
+    text-align: center;
+}
+
+
+/******second layer*************/
+.secondlayer {
+    position: absolute;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    height: 800px;
+    width: 650px;
+    left: 600px;
+    box-shadow: 0 10px 8px #888888;
+    z-index: 1;
+
+
+}
+
+
+/********Everything about thirdheader goes here***********/
+.thirdlayer {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    height: 740px;
+    width: 650px;
+    left: 90px;
+    top: 60px;
+    box-shadow: 0 10px 9px #888888;
+    z-index: 2;
+}
+
+/*******headercolor**********/
+#headercolor {
+    position: relative;
+    background: linear-gradient(to right, #f3a800 0%, #f45c06 30%, #f3a800)100%;
+    height: 350px;
+    width: auto;
+    text-align: center;
+    color: white;
+}
+
+
+
+/***Experimenting third overlay pages**/
+.thirdgrid > div {
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 1em;
+}
+
+.thirdgrid > div img{
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    width: auto;
+    height: 150px;
+}
+
+.thirdgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
