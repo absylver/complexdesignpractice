@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    background: rgb(234, 235, 239);
 }
 
 /***first background*****/
@@ -18,7 +17,7 @@
     position: absolute;
     top: 0;
     background-color: rgb(255, 255, 255);
-    height: 800px;
+    height: 100vh;
     width: 650px;
     left: 600px;
     box-shadow: 0 10px 8px #888888;
@@ -32,7 +31,7 @@
 .thirdlayer {
     position: absolute;
     background: rgb(255, 255, 255);
-    height: 740px;
+    height: auto;
     width: 650px;
     left: 90px;
     top: 60px;
@@ -49,19 +48,41 @@
     text-align: center;
     color: white;
 }
+/*******Login********/
+.login{
+    position: absolute;
+    background-color: rgb(247, 220, 247);
+    z-index: 5;
+}
 
-
+p{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
 
 /***Experimenting third overlay pages**/
 .thirdgrid > div {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255 );
     font-size: 15px;
     padding: 1em;
 }
-
-.thirdgrid > div img{
-    background-color: rgb(255, 255, 255);
+/***font awesome****/
+.fa-book{
+  color: red;
+  font-size: 50px;
+  line-height: 70px;
 }
+.fa-calendar{
+    color:teal;
+    font-size: 50px;
+    line-height: 70px;
+}
+.fa-graduation-cap{
+    color:goldenrod;
+    font-size: 50px;
+    line-height: 70px;
+}
+
 
 img {
     width: auto;
@@ -70,5 +91,9 @@ img {
 
 .thirdgrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-auto-rows: minmax(100px auto);
+    margin-top: 150px;
+    padding: 1.5em;
 }
