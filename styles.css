@@ -21,9 +21,17 @@
     width: 650px;
     left: 600px;
     box-shadow: 0 10px 8px #888888;
-    z-index: 1;
+    z-index: 5;
 
 
+}
+.books{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2em;
+    grid-auto-rows: minmax(100px auto);
+    margin-top: 10px;
+    padding: 1.5em;
 }
 
 
@@ -88,7 +96,7 @@ img {
     width: auto;
     height: 150px;
 }
-
+/****ThirdGrid*****/
 .thirdgrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
