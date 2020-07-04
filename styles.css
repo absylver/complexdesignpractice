@@ -1,6 +1,8 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Effra,Helvetica, arial, sans-serif;
+    font-weight: 100;
 }
 
 /***first background*****/
@@ -21,7 +23,7 @@
     width: 650px;
     left: 600px;
     box-shadow: 0 10px 8px #888888;
-    z-index: 5;
+    z-index: 1;
 
 
 }
@@ -32,6 +34,10 @@
     grid-auto-rows: minmax(100px auto);
     margin-top: 10px;
     padding: 1.5em;
+}
+#bookimage{
+    background: linear-gradient(180deg, green 30%, white 100%);
+    border-radius: 10px 900px 5px 900px;
 }
 
 
@@ -94,8 +100,10 @@ p{
 /*****image control*****/
 img {
     width: auto;
-    height: 150px;
+    height: auto;
 }
+
+
 /****ThirdGrid*****/
 .thirdgrid {
     display: grid;
